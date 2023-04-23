@@ -15,14 +15,16 @@
  <h1>Etch-A-Sketch</h1>
  <div class="header">
   <h5>Select the sizes</h5>
-  <button id="top" class="btn btn-primary">Select</button>
+  <button id="topup" class="btn btn-primary">Select</button>
  </div>
- <div class="whiteboard"></div>
+ <p id="text"></p>
+ <p id="draw"></p>
+ <div class="board"></div>
  <div class="continer"></div>
  <div class="footer">
-  <button class="btn btn-warning">Drawing </button>
-  <button class="btn btn-secondary">Random</button>
-  <button class="btn btn-outline-success">Reset</button>
+  <button class="btn btn-warning" onclick="setColor('black')">Black </button>
+  <button class="btn btn-secondary" onclick="setColor('random')">Random</button>
+  <button class="btn btn-outline-success" onclick="resetBoard()">Reset</button>
  </div>
  
 </body>

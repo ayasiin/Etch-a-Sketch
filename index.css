@@ -18,7 +18,7 @@ body{
  width: 300px;
  justify-content: space-around;
  margin-bottom: 20px;
- 
+
 }
 .footer{
  display: flex;
@@ -28,7 +28,7 @@ flex-direction: row;
  align-items: center;
  margin-top: 20px;
 }
-.whiteboard{
+.board{
  width: 500px;
  height: 500px;
  display: grid;
